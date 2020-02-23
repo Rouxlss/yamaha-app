@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Avenir; 
+    src: url(./Avenir\ Next.ttc); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Avenir;
+}
+
+body {
+    background-image: linear-gradient(to right, #e72e29, #de2c2a, #d52a2c, #cb282c, #c2272d);
+    background-size: 100%;
+}
+
+form {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 250px;
+}
+
+.form-input {
+    text-align: center;
+    display: block;
+    height: 70px;
+    position: relative;
+}
+
+.form-input label {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+}
+
+.form-input input[type=text], input[type=password] {
+     border: none;
+     background: #A60D0F;
+     border-radius: 20px;
+     color: white;
+     padding: 10px;
+     width: 70%;
+}
+
+.form-input input:focus {
+    outline: none;
+}
+
+.boton {
+    background: white;
+    color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: relative;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.ghost {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.boton:hover {
+    outline: none;
+    background: red;
+    color: white;
+    border: 1px solid;
+}
+
+.header {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: -200px;
+    right: 0;
+    color: white;
+}
+
+.header img {
+    width: 100px;
+}
+
+.form-input p {
+    color: white;
+    position: relative;
+    top: -10px;
+}
+
+.add {
+    margin-top: 250px;
+}
+
+section {
+    width: 100%;
+    color: white;
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    top: 150px;
+}
+
+section img {
+    width: 100px;
+}
+
+section p {
+text-align: center;
+}
