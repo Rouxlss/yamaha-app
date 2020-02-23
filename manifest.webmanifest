@@ -1,8 +1,9 @@
 {
-  
+
     "name": "Mi Yamaha",
     "short_name": "Yamaha",
     "start_url": ".",
+    "orientation": "portrait",
     "display": "standalone",
     "background_color": "#C80000",
     "theme_color": "#CE292C",
@@ -46,6 +47,11 @@
         {
           "src": "./img/icon_32.png",
           "sizes": "32x32",
+          "type": "image/png"
+        },
+        {
+          "src": "./img/favicon.png",
+          "sizes": "16x16",
           "type": "image/png"
         }
     ]
