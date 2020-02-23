@@ -3,7 +3,6 @@
     "name": "Mi Yamaha",
     "short_name": "Yamaha",
     "start_url": ".",
-    "orientation": "portrait",
     "display": "standalone",
     "background_color": "#C80000",
     "theme_color": "#CE292C",
