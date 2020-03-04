@@ -18,6 +18,7 @@ body {
 section h1 {
     text-align: center;
     color: white;
+    width: 80%;
 }
 
 section p {
