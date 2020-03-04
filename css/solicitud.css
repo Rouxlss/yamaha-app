@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Avenir; 
+    src: url(../Avenir\ Next.ttc); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Avenir;
+}
+
+body {
+    background-image: linear-gradient(to right, #e72e29, #de2c2a, #d52a2c, #cb282c, #c2272d);
+    background-size: 100%;
+}
+
+section h1 {
+    text-align: center;
+    color: white;
+}
+
+section p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Open sans';
+}
+
+section .img {
+    width: 30%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+section .img img {
+    width: 100%;
+}
+
+.boton {
+    background: white;
+    color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    cursor: pointer;
+    transition: .4s;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 30px;
+    width: 100px;
+}
+
+.ghost {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.boton:hover {
+    outline: none;
+    background: red;
+    color: white;
+    border: 1px solid;
+}
