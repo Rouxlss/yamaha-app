@@ -324,6 +324,29 @@ section.puntos .contenedor .img img{
     width: 100%;
 }
 
+/*MTTOS*/
+
+.link {
+    text-decoration: none;
+}
+
+.mttos h3 {
+    color: #000;
+}
+
+.mttos {
+    padding: 5%;
+}
+
+.mttos p {
+    color: rgb(59, 59, 59);
+    font-family: 'Open sans';
+}
+
+.mttosinfo {
+    background: rgb(212, 212, 212);
+}
+
 footer {
     background: #CCCCCC;
     padding: 1%;
