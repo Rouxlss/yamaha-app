@@ -218,7 +218,7 @@ section.check {
   
   /* When the checkbox is checked, add a blue background */
   .container input:checked ~ .checkmark {
-    background-color: rgb(243, 33, 33);
+    background-color: rgb(221, 219, 219);
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
@@ -239,7 +239,7 @@ section.check {
     top: 5px;
     width: 5px;
     height: 10px;
-    border: solid white;
+    border: solid rgb(2, 153, 2);
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -365,4 +365,21 @@ footer .boton {
 footer img {
     width: 100%;
     margin: auto;
+}
+
+table {
+    width: 80%;
+    padding: 5%;
+}
+
+table tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+table tr th {
+    text-align: left;
 }
