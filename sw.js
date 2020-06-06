@@ -17,6 +17,7 @@ const staticAssets = [
     './solicitudEnviada.html',
 
     //img files
+    './img/favicon.png',
     './img/icon_32.png',
     './img/icon_64.png',
     './img/icon_96.png',
