@@ -6,7 +6,43 @@ const staticAssets = [
     './index.js',
     './manifest.webmanifest',
     './img/logo.png',
-    './Avenir\ Next.ttc'
+    './Avenir\ Next.ttc',
+
+    //html files
+    './agendar-cita.html',
+    './detallesMtto.html',
+    './mttosRealizados.html',
+    './panel.html',
+    './perfil.html',
+    './solicitudEnviada.html',
+
+    //img files
+    './img/icon_32.png',
+    './img/icon_64.png',
+    './img/icon_96.png',
+    './img/icon_128.png',
+    './img/icon_192.png',
+    './img/icon_256.png',
+    './img/icon_512.png',
+    './img/icon_1024.png',
+    './img/icon-red01.png',
+    './img/icon-red02.png',
+    './img/icon-red03.png',
+    './img/icon-red04.png',
+    './img/icon01.png',
+    './img/icon02.png',
+    './img/icon03.png',
+    './img/icon04.png',
+    './img/logo.png',
+    './img/logo2.png',
+    './img/logo3.png',
+    './img/logo4.png',
+    './img/logo5.png',
+    './img/moto1.png',
+    './img/perfil.png',
+    './img/tarjeta.png',
+    './img/yamalube.png'
+
 ];
 
 self.addEventListener('install', async e => {
