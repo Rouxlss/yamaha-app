@@ -38,11 +38,11 @@
         
         <div class="opcion">
             <p>Kilometraje actual:</p>
-            <input type="text" placeholder="----">
+            <input type="text" required>
         </div>
         <div class="opcion">
             <p>Teléfono:</p>
-            <input type="text" placeholder="-">
+            <input type="tel" pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' title='Phone Number (Format: +99(99)9999-9999)' required>
         </div>
         
 
@@ -54,7 +54,7 @@
         <P>Mantenimiento preventico de 7,000 KM</P>
         <form action="">
           <label class="container">Engrase de ejes
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
           </label>
           
@@ -74,7 +74,7 @@
           </label>
 
           <label class="container">Lubricación de cables
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
           </label>
           
@@ -94,7 +94,7 @@
           </label>
 
           <label class="container">Revisión de batería
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
           </label>
           
