@@ -33,7 +33,6 @@ const staticAssets = [
     './img/icon02.png',
     './img/icon03.png',
     './img/icon04.png',
-    './img/logo.png',
     './img/logo2.png',
     './img/logo3.png',
     './img/logo4.png',
