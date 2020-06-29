@@ -383,3 +383,42 @@ table tr {
 table tr th {
     text-align: left;
 }
+
+
+/* Catalogo */
+
+section.catalogo {
+    background: #F5F5F5;
+    padding: 4%;
+}
+
+.header-catalogo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 10px;
+}
+
+.header-catalogo p.filtrar {
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    font-family: 'Open sans';
+    font-weight: 100;
+    line-height: 100px;
+}
+
+.header-catalogo select {
+    font-size: 20px;
+    font-family: 'Open sans';
+    background: rgb(233, 233, 233);
+    color: rgb(102, 102, 102);
+    border: none;
+    padding: 20px;
+}
+
+.header-catalogo select option i{
+    display: none;
+}
+
+
+

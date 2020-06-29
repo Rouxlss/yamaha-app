@@ -7,6 +7,7 @@ const staticAssets = [
     './manifest.webmanifest',
     './img/logo.png',
     './Avenir\ Next.ttc',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css',
 
     //html files
     './agendar-cita.html',
@@ -42,7 +43,6 @@ const staticAssets = [
     './img/perfil.png',
     './img/tarjeta.png',
     './img/yamalube.png'
-
 ];
 
 self.addEventListener('install', async e => {
@@ -83,4 +83,6 @@ self.addEventListener('install', async e => {
       return cached;
     }
   }
+  
+
   
