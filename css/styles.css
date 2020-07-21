@@ -14,6 +14,7 @@
 body {
     background-image: linear-gradient(to right, #e72e29, #de2c2a, #d52a2c, #cb282c, #c2272d);
     background-size: 100%;
+    overflow: hidden;
 }
 
 .header p{ 
@@ -73,7 +74,7 @@ form {
     right: 0;
 }
 
-.form-input input[type=text], input[type=password] {
+.form-input input[type=email], input[type=password] {
      border: none;
      background: #a82525c9;
      border-radius: 10px;
