@@ -508,10 +508,10 @@ section.catalogo {
 .select-box__current:focus + .select-box__list .select-box__option {
     cursor: pointer;
 }
-.select-box__current:focus .select-box__icon {
+.select-box__current:focus .fa-chevron-down {
     transform: translateY(-50%) rotate(180deg);
 }
-.select-box__icon {
+.fa-chevron-down {
     position: absolute;
     top: 50%;
     right: 15px;
