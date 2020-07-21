@@ -8,9 +8,7 @@ var modalSesion = document.getElementById("ventanaSesion");
 var back1 = document.getElementById("back-register");
 var back2 = document.getElementById("back-sesion");
 
-
 var letrasTitulo = document.getElementById("title-login");
-
 
 function subir() {
     modalRegistro.classList.add("animation-modal");
