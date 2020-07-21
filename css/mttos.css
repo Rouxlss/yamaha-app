@@ -262,7 +262,6 @@ label.container {
     position: relative;
 }
 
-
 .detalles form a {
     position: absolute;
     bottom: -70px;
@@ -393,32 +392,179 @@ section.catalogo {
 }
 
 .header-catalogo {
-    width: 100%;
+    width: 96%;
     display: flex;
-    justify-content: space-around;
-    line-height: 10px;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .header-catalogo p.filtrar {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(102, 102, 102);
     font-family: 'Open sans';
     font-weight: 100;
-    line-height: 100px;
+    margin-top: 10px;
+    line-height: 27px;
 }
-
+ 
 .header-catalogo select {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Open sans';
     background: rgb(233, 233, 233);
     color: rgb(102, 102, 102);
     border: none;
-    padding: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.header-catalogo select option {
+    text-align: center;
 }
 
 .header-catalogo select option i{
     display: none;
 }
 
+.body-catalogo {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 70px;
+}
 
+.body-catalogo .tarjeta-catalogo {
+    margin-top: 10px;
+    width: 47%;
+    background: white;
+    padding: 2%;
+}
 
+.body-catalogo .tarjeta-catalogo .img-moto {
+    width: 100%;
+    margin: auto;
+}
+
+.body-catalogo .tarjeta-catalogo .img-moto img {
+    width: 100%;
+}
+
+.body-catalogo .tarjeta-catalogo .textos {
+    text-align: center;
+}
+
+.body-catalogo .tarjeta-catalogo .textos h1 {
+    font-size: 18px;
+}
+
+.body-catalogo .tarjeta-catalogo .textos p {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    font-weight: 100;
+    font-family: 'Open sans';
+}
+
+/*SELECT*/
+
+.select-box {
+    position: relative;
+    display: block;
+    width: 50%;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #60666d;
+    font-weight: 100;
+}
+
+@media (min-width: 768px) {
+    .select-box {
+        width: 70%;
+   }
+}
+
+@media (min-width: 992px) {
+    .select-box {
+        width: 50%;
+   }
+}
+
+@media (min-width: 1200px) {
+    .select-box {
+        width: 30%;
+   }
+}
+.select-box__current {
+    position: relative;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+}
+.select-box__current:focus + .select-box__list {
+    opacity: 1;
+    animation-name: none;
+}
+.select-box__current:focus + .select-box__list .select-box__option {
+    cursor: pointer;
+}
+.select-box__current:focus .select-box__icon {
+    transform: translateY(-50%) rotate(180deg);
+}
+.select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 20px;
+    opacity: 0.3;
+    transition: 0.2s ease;
+}
+
+.select-box__value {
+    display: flex;
+}
+.select-box__input {
+    display: none;
+}
+.select-box__input:checked + .select-box__input-text {
+    display: block;
+}
+.select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.select-box__list {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    animation-name: HideList;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: step-start;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+}
+.select-box__option {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+}
+.select-box__option:hover, .select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+}
+@keyframes HideList {
+    from {
+        transform: scaleY(1);
+   }
+    to {
+        transform: scaleY(0);
+   }
+}
