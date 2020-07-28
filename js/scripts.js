@@ -10,29 +10,31 @@ var back2 = document.getElementById("back-sesion");
 
 var letrasTitulo = document.getElementById("title-login");
 
-function subir() {
-    modalRegistro.classList.add("animation-modal");
-    letrasTitulo.classList.add("animation-letter");
-}
-
-function bajar() {
+function bajar1 () {
     modalRegistro.classList.remove("animation-modal");
     letrasTitulo.classList.remove("animation-letter");
 }
 
+function bajar2 () {
+    modalSesion.classList.remove("animation-modal");
+    letrasTitulo.classList.remove("animation-letter");
+}
+
 btnRegister.addEventListener('click', function() {
-    subir();
+    modalRegistro.classList.add("animation-modal");
+    letrasTitulo.classList.add("animation-letter");
 });
 
 back1.addEventListener('click', function() {
-    bajar()
+    bajar1();
 });
 
 btnSesion.addEventListener('click', function() {
-    subir();
+    modalSesion.classList.add("animation-modal");
+    letrasTitulo.classList.add("animation-letter");
 });
 
 back2.addEventListener('click', function() {
-    bajar()
+    bajar2();
 });
 
